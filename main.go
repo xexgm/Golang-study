@@ -178,7 +178,12 @@ func main() {
 	/**
 	案例21 make 练习
 	*/
-	basic.TestMake()
+	//basic.TestMake()
+
+	/**
+	案例22 内存分配 练习
+	*/
+	basic.TestAllocateMemory()
 }
 
 func changeString() {
