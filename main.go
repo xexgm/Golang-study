@@ -153,7 +153,32 @@ func main() {
 	/**
 	案例16 字符串和切片
 	*/
-	basic.StringAndSlice()
+	//basic.StringAndSlice()
+
+	/**
+	案例17 指针
+	*/
+	//basic.TestPtr()
+
+	/**
+	案例18 指针取值
+	*/
+	//basic.GetValByPtr()
+
+	/**
+	案例19 空指针
+	*/
+	//basic.NilPtr()
+
+	/**
+	案例20 new 练习
+	*/
+	//basic.TestNew()
+
+	/**
+	案例21 make 练习
+	*/
+	basic.TestMake()
 }
 
 func changeString() {
