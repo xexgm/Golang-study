@@ -72,10 +72,88 @@ func main() {
 	//fmt.Println(sum)
 
 	/**
-	找出数组中和为定值的两个元素的下标
+	案例7 找出数组中和为定值的两个元素的下标
 	*/
-	b := [5]int{1, 3, 5, 8, 7}
-	basic.TwoIndex(8, &b)
+	//b := [5]int{1, 3, 5, 8, 7}
+	//basic.TwoIndex(8, &b)
+
+	/**
+	案例8 切片练习
+	*/
+	//arr := [5]int{1, 2, 3, 4, 5}
+	//var s = arr[:]
+	//fmt.Printf("原切片: 指针的地址%p", s)
+	//fmt.Print(s)
+	//fmt.Println()
+	//
+	//basic.ModifySli(s)
+	//
+	//fmt.Print("后来的原切片: ")
+	//fmt.Print(s)
+
+	/**
+	案例9 切片的 len 和 cap
+	*/
+	//basic.InitSlice()
+
+	/**
+	案例10 通过 make动态创建slice，避免了数组必须用常量做长度的麻烦，还可直接用指针访问底层数组
+	退化成普通数组操作
+	以下是数组操作的麻烦之处
+	*/
+	//s := [...]int{0, 1, 2, 3, 4}
+	//fmt.Println(s)
+	//p := &s[1]
+	//p1 := &s[2]
+	//*p = 666
+	//*p1 = 777
+	//fmt.Println(s)
+
+	/**
+	案例11 二维数组，[][]T,的含义是，第一个[] 代表了数组，它的每一个元素，都是 []T
+	*/
+	//data := [][]int{
+	//	[]int{1, 2, 3},
+	//	[]int{4, 5, 6},
+	//	[]int{7, 8, 9},
+	//}
+	//fmt.Println(data)
+
+	/**
+	案例12 结构体数组，第一个 {} 代表了 结构体的结构，第二个{},是用来初始化的
+	*/
+	//data := [5]struct {
+	//	x int
+	//}{
+	//	{1},
+	//	{2},
+	//	{3},
+	//}
+	//fmt.Println(data)
+	//data[0].x = 100
+	//data[1].x = 200
+	//data[2].x = 300
+	//fmt.Println(data)
+
+	/**
+	案例13 使用 append 操作切片
+	*/
+	//basic.AppendSlice()
+
+	/**
+	案例14 slice中 cap 的分配规律
+	*/
+	//basic.SliceCap()
+
+	/**
+	案例15 slice 调整大小
+	*/
+	//basic.SliceResize()
+
+	/**
+	案例16 字符串和切片
+	*/
+	basic.StringAndSlice()
 }
 
 func changeString() {
