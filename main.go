@@ -183,7 +183,17 @@ func main() {
 	/**
 	案例22 内存分配 练习
 	*/
-	basic.TestAllocateMemory()
+	//basic.TestAllocateMemory()
+
+	/**
+	案例23 map
+	*/
+	// basic.UseMap()
+	// basic.IsExist()
+	// basic.TestDelete()
+	// basic.RangeBySort()
+	basic.MapSlice()
+	basic.SliceMap()
 }
 
 func changeString() {
